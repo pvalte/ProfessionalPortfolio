@@ -55,15 +55,136 @@ header nav ul li a {
 /* Header End */
 
 /* Hero Start */
+.hero {
+    background-image: url("./images/blurred-spring.jpg");
+    display: flex;
+    background-size: cover;
+    height: 200px;
+}
+
+.hero h2 {
+    margin-top: auto;
+} 
 /* Hero End */
 
+/* Body Start */
+.section-title {
+    display: flex;
+    padding: 10px 20px 0 20px;
+    width: 15%;
+    border-right: 3px solid var(--secondary-color);
+    margin-right: 30px;
+}
+
+.section-title h3 {
+    font-size: 40px;
+}
+
+/* Body End */
+
 /* About Me Start */
+.about-me {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.about-me-text {
+    width: 70%;
+}
+
+.about-me-text p {
+    padding: 10px;
+}
+
 /* About Me End */
 
 /* Work Start */
+.work {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.work-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.tile-1,
+.tile-2,
+.tile-3,
+.tile-4,
+.tile-5 {
+    margin: 10px;
+    height: 100px;
+}
+
+
+.tile-1 {
+    width: 47%;
+    background-color: seagreen;
+}
+
+.tile-2 {
+    width: 47%;
+    background-color: yellow;
+}
+
+.tile-3 {
+    width: 31%;
+    background-color: khaki;
+}
+
+.tile-4 {
+    width: 30%;
+    background-color: darkcyan;
+}
+
+.tile-5 {
+    width: 30%;
+    background-color: purple;
+}
+
+.work-tiles h4 {
+    
+}
+
+.work-tiles h4 a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
 /* Work End */
 
 /* Contact Me Start */
+.contact-me {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.contacts {
+    display: flex;
+    width: 70%;
+}
+
+.contacts ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts ul li a {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
 /* Contact Me End */
 
 /* Footer Start */
