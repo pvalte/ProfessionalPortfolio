@@ -25,9 +25,10 @@ header {
     flex-wrap: wrap;
 }
 
-header h1 {
+header h1 a {
     font-size: 40px;
     color: var(--secondary-color);
+    text-decoration: none;
 }
 
 header nav {
